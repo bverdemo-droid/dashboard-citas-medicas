@@ -21,8 +21,7 @@ st.markdown("""
 # 2. Encabezado Corporativo
 st.title('🏥 Plataforma Inteligente de Gestión de Citas')
 st.markdown('**Hospital de Lima Norte** | Dirección de Operaciones y BI')
-st.hr()
-
+st.markdown("---")
 # 3. Carga y preparación optimizada de datos
 @st.cache_data
 def cargar_datos():
